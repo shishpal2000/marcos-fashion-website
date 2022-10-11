@@ -1,0 +1,25 @@
+{
+  "name": "maaco",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frantend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shishpal2000/mern-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-update": "^0.4.4"
+  },
+  "bugs": {
+    "url": "https://github.com/shishpal2000/mern-project/issues"
+  },
+  "homepage": "https://github.com/shishpal2000/mern-project#readme",
+  "devDependencies": {},
+  "description": ""
+}
